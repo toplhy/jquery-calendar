@@ -1,0 +1,154 @@
+.cal-w-700{
+    width:700px;
+    height:400px;
+}
+
+.cal-left-div{
+    float:left;
+    width:70%;
+    height:100%;
+    border:2px solid #6cd3fb;
+}
+
+.cal-right-div{
+    float:left;
+    width:21%;
+    height:100%;
+    background:#6cd3fb;
+    border:2px solid #6cd3fb;
+}
+
+.cal-toolbar{
+    position:relative;
+    line-height:20px;
+    /*height:10%;*/
+    padding:10px;
+    border-bottom:#d0f7fd solid 1px;
+}
+
+.cal-toolbar-year{
+    width:20%;
+    float:left;
+}
+
+.cal-toolbar-year select{
+    width:100%;
+    border: 1px solid #e8e8e8;
+}
+
+.cal-toolbar-month{
+    width:30%;
+    float:left;
+    margin-left:20px;
+    line-height: 10px;
+}
+
+.cal-toolbar-month a{
+    font-size:20px;
+    text-align:center;
+    color:#008080;
+    text-decoration:none;
+}
+
+.cal-toolbar-month select{
+    width:60%;
+    border: 1px solid #e8e8e8;
+}
+
+.cal-toolbar-toToday{
+    width:20%;
+    border:1px solid #d8d8d8;
+    margin-left:15px;
+    margin-top:0;
+    background:#ffffff;
+}
+
+.cal-toolbar-toToday:hover{
+    border:1px solid #1a8cff;
+}
+
+.cal-date-div{
+    position:relative;
+    width:100%;
+    height:90%;
+    padding-left:2%;
+    padding-right:2%;
+}
+
+.cal-date-table{
+    width:96%;
+    text-align:center;
+    height:100%;
+}
+
+.cal-date-table-thead tr th{
+    text-align: center;
+}
+
+.cal-date-table tr td{
+    width:14.2%;
+    font-size:20px;
+}
+
+.cal-date-table tr td a{
+    font-size:20px;
+    color:#000000;
+    display:block;
+    margin:auto;
+    cursor:pointer;
+    text-decoration:none;
+}
+
+.cal-date-table tr td a .cal-date-lunar{
+    font-size:14px;
+}
+
+.cal-date-table tr td .cal-date-weekend{
+    color:#FF0000;
+}
+
+.cal-date-table tr td .cal-date-today{
+    background:#FFBB00;
+    color:#FFFFFF;
+}
+
+.cal-date-table tr td .cal-perv-month-days{
+    color:#BFBFC5;
+}
+
+.cal-date-table tr td .cal-next-month-days{
+    color:#BFBFC5;
+}
+
+.cal-date-clicked{
+    border:2px solid #FFBB00;
+}
+
+.cal-detail-date{
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+.cal-detail-day{
+    width:60%;
+    height:20%;
+    margin:auto;
+    text-align:center;
+    padding: auto 0;
+    background:#FFBB00;
+    font-size:65px;
+    color: #FFFFFF;
+}
+
+.cal-detail-lunar{
+    margin-top: 40px;
+    border-top: 1px solid #d8d8d8;
+    padding: 10px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.color-red{
+    color: red;
+}
